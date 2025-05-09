@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+}
+
+.ant-skeleton-input {
+  width: 100% !important;
+}
+
+.left-filter-shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.range-slider {
+  height: 5px !important;
+}
+
+.range-slider__thumb {
+  width: 17px !important;
+  height: 17px !important;
+  background-color: #fff !important;
+  border-radius: 50% !important;
+  border: 2px solid !important;
+    @apply border-orange-600 !important;
+}
+
+.range-slider__range {
+  @apply bg-orange-600 !important;
+  border-radius: 5px !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  @apply bg-orange-600 !important;
+  border: none !important;
+}
+.ant-checkbox-inner {
+  border: 1px solid rgb(182, 179, 179) !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  @apply bg-orange-600 border-orange-600 !important;
+}
+
+/* Change the hover effect */
+.ant-radio-inner:hover {
+  @apply border-orange-600 !important;
+}
+
+/* Change the radio button when it’s focused */
+.ant-radio-input:focus + .ant-radio-inner {
+  @apply border-orange-600 !important;
+}
+
+.ant-radio-inner {
+  border: 1px solid rgb(182, 179, 179) !important;
+}
+
+.ant-skeleton-image{
+  width: 100% !important;
+}
+
+.card-shadow{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
